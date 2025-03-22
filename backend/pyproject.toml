@@ -8,15 +8,15 @@ authors = ["Admin <admin@example.com>"]
 python = "^3.10"
 uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
 fastapi = "^0.109.1"
-python-multipart = "^0.0.7"
+python-multipart = "^0.0.18"
 email-validator = "^2.1.0.post1"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 tenacity = "^8.2.3"
 pydantic = ">2.0"
 emails = "^0.6"
 
-gunicorn = "^22.0.0"
-jinja2 = "^3.1.4"
+gunicorn = "^23.0.0"
+jinja2 = "^3.1.6"
 alembic = "^1.12.1"
 httpx = "^0.25.1"
 psycopg = {extras = ["binary"], version = "^3.1.13"}
@@ -24,7 +24,7 @@ sqlmodel = "^0.0.21"
 # Pin bcrypt until passlib supports the latest
 bcrypt = "4.0.1"
 pydantic-settings = "^2.2.1"
-sentry-sdk = {extras = ["fastapi"], version = "^1.40.6"}
+sentry-sdk = {extras = ["fastapi"], version = "^2.8.0"}
 pyjwt = "^2.8.0"
 
 [tool.poetry.group.dev.dependencies]
